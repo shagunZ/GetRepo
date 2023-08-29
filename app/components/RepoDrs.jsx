@@ -5,6 +5,10 @@ async function fetchRepoContents(name) {
   
     const response = await fetch(
       `https://api.github.com/repos/shagunZ/${name}/contents`,
+      { next:{
+        revalidate: 60
+      }
+    }
     );
     const contents = await response.json();
     return contents;
