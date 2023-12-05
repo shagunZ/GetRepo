@@ -18,8 +18,11 @@ const RepoDrs = async ({name}) => {
     const contents = await fetchRepoContents(name);
 
     const dirs = contents.filter((content)=>content.type==='dir');
+    const notdirs = contents.filter((content)=>content.type!=='dir');
   return (
     <>
+    <div className=" grid-flow-col col-span-2 flex">
+      <div className='col-span-1'>
     <h3>Directories</h3>
     <ul>
         {dirs.map((dir)=>(
@@ -30,6 +33,22 @@ const RepoDrs = async ({name}) => {
             </li>
         ))}
     </ul>
+    </div>
+
+    <div className='col-span-1'>
+    <h3>Files and Folders</h3>
+    <ul>
+        {notdirs.map((dir)=>(
+            <li key={dir.path}>
+                <Link href={`/code/repos/${name}/${dir.path}`}>
+                {dir.path}
+                </Link>
+            </li>
+        ))}
+    </ul>
+    </div>
+
+    </div>
     </>
   )
 }

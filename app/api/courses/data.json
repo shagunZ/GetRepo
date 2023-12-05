@@ -1,37 +1,44 @@
 [
     {
       "id": 1,
-      "title": "React Front To Back",
-      "description": "Learn Modern React, Including Hooks, Context API, Full Stack MERN & Redux By Building Real Life Projects.",
-      "link": "https://www.traversymedia.com/Modern-React-Front-To-Back-Course",
+      "title": "React Hooks",
+      "description": "React hooks provide a highly-efficient was to tap into framework features and organize reactive logic. Learn how use every built-in React hook",
+      "link": "https://www.youtube.com/watch?v=TNhaISOUy6Q&list=LL&index=51",
       "level": "Beginner"
     },
     {
       "id": 2,
-      "title": "Node.js API Masterclass",
-      "description": "Build an extensive RESTful API using Node.js, Express, and MongoDB",
-      "link": "https://www.traversymedia.com/node-js-api-masterclass",
+      "title": "Backend Ultimate",
+      "description": " In just one comprehensive video, you'll learn everything you need to know to master backend development from zero to hero.",
+      "link": "https://www.youtube.com/watch?v=cGAdC4A5fF4&list=LL&index=13",
       "level": "Intermediate"
     },
     {
       "id": 3,
-      "title": "Modern JavaScript From The Beginning",
-      "description": "37 hour course that teaches you all of the fundamentals of modern JavaScript.",
-      "link": "https://www.traversymedia.com/modern-javascript-2-0",
+      "title": "Firebase basics",
+      "description": "25minute Firebase tutorial that teaches you all of the fundamentals.",
+      "link": "https://www.youtube.com/watch?v=q5J5ho7YUhA&list=LL&index=50",
       "level": "All Levels"
     },
     {
       "id": 4,
-      "title": "Next.js Dev To Deployment",
-      "description": "Learn Next.js by building a music event website and a web dev blog as a static website",
-      "link": "https://www.traversymedia.com/next-js-dev-to-deployment",
+      "title": "Redux Toolkit",
+      "description": "Redux For Beginners | React Redux Tutorial",
+      "link": "https://www.youtube.com/watch?v=iBUJVy8phqw&list=LL&index=52",
       "level": "Intermediate"
     },
     {
       "id": 5,
-      "title": "50 Projects in 50 Days",
-      "description": "Sharpen your skills by building 50 quick, unique & fun mini projects.",
-      "link": "https://www.traversymedia.com/50-Projects-In-50-Days",
-      "level": "Beginner"
+      "title": "Node.js & Speakeasy",
+      "description": "Create time-based one-time password(TOTP) authentication using Node.js, Express and Speakeasy.",
+      "link": "https://www.youtube.com/watch?v=KQya9i6czhM&list=LL&index=46",
+      "level": "Intermediate"
+    },
+    {
+      "id": 6,
+      "title": "NextJS + Firebase",
+      "description": "Use Firebase with Next JS Using React Hooks, And Setup Firestore, Next JS Authentication With Firebase, And Create A Cloud Function Using Typescript",
+      "link": "https://www.youtube.com/watch?v=awd_oYcmrRA&list=LL&index=49",
+      "level": "Intermediate"
     }
   ]
