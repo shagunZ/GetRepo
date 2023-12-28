@@ -18,7 +18,7 @@ const ReposPage = async() => {
   // console.log(repos);
   return (
     <div className='repos-container'>
-      <h1>My Repositories</h1>
+      <h1 style={{textAlign:"center"}}>My Repositories</h1>
       <ul className="repo-list">
         {repos.map((repo)=>(
           <li key={repo.id} className=''>

@@ -27,7 +27,7 @@ const RepoDrs = async ({name}) => {
     <ul>
         {dirs.map((dir)=>(
             <li key={dir.path}>
-                <Link href={`/code/repos/${name}/${dir.path}`}>
+                <Link href={`/code/repos/${name}/${dir.path}`} style={{textDecoration:"none"}}>
                 {dir.path}
                 </Link>
             </li>
@@ -40,7 +40,7 @@ const RepoDrs = async ({name}) => {
     <ul>
         {notdirs.map((dir)=>(
             <li key={dir.path}>
-                <Link href={`/code/repos/${name}/${dir.path}`}>
+                <Link href={`/code/repos/${name}/${dir.path}`}  style={{textDecoration:"none"}}>
                 {dir.path}
                 </Link>
             </li>

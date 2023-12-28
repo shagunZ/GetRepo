@@ -9,7 +9,7 @@ const Aboutpage = () => {
     <div className='container'>
         <h1 className='hover:text-blue-600'>About page</h1>
         <p className="text-xs text-blue-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iste, tempora sint possimus nobis odio at ipsam, illum alias assumenda voluptate totam?
+            getrepo is an innovative web application built using Next.js, designed to streamline and enhance the GitHub repository exploration experience. This project leverages the power of Next.js, a React-based framework, to create a fast, responsive, and user-friendly interface for navigating GitHub repositories directly.
         </p>
     </div>
   )
